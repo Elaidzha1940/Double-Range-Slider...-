@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  RangeSliderComponent1.swift
 //  Double(Range) Slider
 //
 //  Created by Elaidzha Shchukin on 20.03.2023.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct SliderComponent: View {
+struct RangeSliderComponent1: View {
     
     var totalWidht = UIScreen.main.bounds.width - 80
     
@@ -19,7 +19,7 @@ struct SliderComponent: View {
 
 struct SliderComponent_Previews: PreviewProvider {
     static var previews: some View {
-            SliderComponent()
+        RangeSliderComponent1()
     }
 }
 
