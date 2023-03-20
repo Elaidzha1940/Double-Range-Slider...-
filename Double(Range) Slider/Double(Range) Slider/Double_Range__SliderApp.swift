@@ -11,7 +11,7 @@ import SwiftUI
 struct Double_Range__SliderApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SliderComponent()
         }
     }
 }
