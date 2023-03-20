@@ -7,20 +7,18 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct SliderComponent2: View {
+    
+    var totalWidht = UIScreen.main.bounds.width - 80
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
+        
+        Slider2()
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct SliderComponent2_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+            SliderComponent2()
     }
 }
