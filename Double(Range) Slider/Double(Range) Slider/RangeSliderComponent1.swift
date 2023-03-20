@@ -13,7 +13,7 @@ struct RangeSliderComponent1: View {
     
     var body: some View {
         
-        Slider2()
+        Slider1()
     }
 }
 
@@ -23,7 +23,7 @@ struct SliderComponent_Previews: PreviewProvider {
     }
 }
 
-struct Slider2 : View {
+struct Slider1 : View {
     
     @State var width: CGFloat = 0
     @State var width1:  CGFloat = 30
