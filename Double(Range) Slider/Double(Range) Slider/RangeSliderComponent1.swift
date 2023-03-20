@@ -17,7 +17,7 @@ struct RangeSliderComponent1: View {
     }
 }
 
-struct SliderComponent_Previews: PreviewProvider {
+struct RangeSliderComponent1_Previews: PreviewProvider {
     static var previews: some View {
         RangeSliderComponent1()
     }
